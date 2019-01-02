@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jorge Carlos / Personal web page"
+title                    : "JC"
 title_separator          : "-"
 name                     : &name "Jorge Carlos Urteaga Reyesvera"
 description              : &description "personal description"
 url                      : https://carlosurteaga.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "carlosurteaga/carlosurteaga.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -85,9 +85,9 @@ author:
   bio              : "Data Scientist"
   location         : "Mexico City"
   employer         :
-  googlescholar    : "https://scholar.google.com.mx/scholar?hl=en&as_sdt=0%2C5&q=j.+Carlos+urteaga-reyesvera&btnG="
+  googlescholar    : # "https://scholar.google.com.mx/scholar?hl=en&as_sdt=0%2C5&q=j.+Carlos+urteaga-reyesvera&btnG="
   email            :  "carlos@urteaga.mx"
-  researchgate     :  "https://www.researchgate.net/profile/J_Carlos_Urteaga-Reyesvera"# example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : # "https://www.researchgate.net/profile/J_Carlos_Urteaga-Reyesvera"# example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
