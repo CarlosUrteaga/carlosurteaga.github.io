@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+Innovation, Data scientist, Big Data, Machine & Deep Learning, Entrepreneur, IoT, Computer Vision, Python, Analytics
+
+I’m data scientist and entrepreneur. I like to improve models of classification using behavior with historical records. My main language for modeling is Python and favorite platform is SMACK. Today I’m working in a Financial institute to detect customer behavior and I had increase the score in 15 porcentege. Beside, I worked as lecturer teaching robotics and computer networks.
+
 Education
 ======
 * B.S. in Telematics Engineer, ITAM, 2015
