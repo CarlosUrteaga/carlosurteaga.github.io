@@ -17,9 +17,6 @@ Education
 ======
 * B.S. in Telematics Engineer, ITAM, 2015
 * M.S. in Computer Science, ITAM, 2017
-<!---
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
--->
 
 Work experience
 ======
