@@ -3,7 +3,7 @@ title: "Big Data and IoT Using Fiware"
 collection: talks
 type: "Talk"
 permalink: /talks/2017-ANUIES
-venue: "Encuentro  ANUIES - TIC 2017 Guadalajara, Mexico"
+venue: "Encuentro  ANUIES - TIC 2017"
 date: 2017-09-01
 location: "Guadalajara, Jalisco"
 ---

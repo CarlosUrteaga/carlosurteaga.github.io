@@ -1,7 +1,7 @@
 ---
 title: "Classification of poisonous species using shape features"
 collection: Tesis
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2016-CONIELECOMP
 excerpt: 'This paper presents a procedure to distinguish between two different species of scorpions using image processing techniques and three different machine-learning methods.'
 date: 2016-02-01
 venue: 'Electronics, Communications and Computers (CONIELECOMP), 2016 International Conference '

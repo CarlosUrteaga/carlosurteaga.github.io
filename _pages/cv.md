@@ -11,30 +11,44 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
+* B.S. in Telematics Engineer, ITAM, 2015
+* M.S. in Computer Science, ITAM, 2017
+<!---
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+-->
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Sept 2018: Head of Data Science 
+  * Generation of models of custumer to target marketing targets
+  * USING NLP and NLQ to improve internal process
+  * Focus the innovation using AI, ML and IoT
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* May 2018: Sr. Data Science
+  * Customer behavior detection from IVR dataset
+  * Dashboard for Marketing Activities
   
+* Oct 2017: Sr of Information Security
+  * Management of users a national level to waranty a follow of IT policies, this is accomplishment using python and Machine Learning (Random Forest)
+  * Data analyst for compliance and monthly report of computer status to report unauthorized behavior. 
+  * Manage and report Information Security incident to KPMG Global
+
+* Ago 2017: Research Assistant
+  * Proposed and present of Research and Advisory on Fraud, Mobility, Health, Telecommunications, etc.
+  * Analyze and promoted distributed systems solutions with HDFS, Hadoop, SPARK and Pig, multiples POCs was realized.
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+  * Scikit Learn
+  * Pandas
+* R
+  * ggplot
+  * tydir
+* Big Data
+  * Hadoop
+  * Spark
+  * Hive
 
 Publications
 ======
@@ -53,7 +67,8 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+<!---  
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->
