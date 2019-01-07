@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "On Construction"
+title: "Under Construction"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 Disruptor and analytical person, with interest in machine learning, data analysis, and computer vision. Today I'm working on projects of ML and NLP using Python.
+
 
 
 
