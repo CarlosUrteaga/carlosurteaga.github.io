@@ -2,7 +2,7 @@
 title: "AutoNOMOS Contest"
 collection: Workshop
 type: "Workshop"
-permalink: /talks/2016-FUBerlinIPN
+permalink: /talks/032016-FUBerlinIPN
 venue: "Workshop Autonomous Car"
 date: 2016-11-01
 location: "Mexico City, Mexico"

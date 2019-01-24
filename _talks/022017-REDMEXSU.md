@@ -2,7 +2,7 @@
 title: "Big Data and IoT Using Fiware Workshop"
 collection: talks
 type: "Workshop"
-permalink: /talks/2017-REDMEXSU
+permalink: /talks/022017-REDMEXSU
 venue: "REDMEXSU 2017"
 date: 2017-11-08
 location: " Ensenada, Baja California"
