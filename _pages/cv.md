@@ -11,15 +11,20 @@ redirect_from:
 
 Innovation, Data scientist, Big Data, Machine & Deep Learning, Entrepreneur, IoT, Computer Vision, Python, Analytics
 
-I’m data scientist and entrepreneur. I like to improve models of classification using behavior with historical records. My main language for modeling is Python and favorite platform is SMACK. Today I’m working in a Financial institute to detect customer behavior and I had increase the score in 15 percentege. Beside, I worked as lecturer teaching robotics and computer networks.
+I’m data scientist and entrepreneur. I like to improve models of classification using behavior with historical records. My main language for modeling is Python. Today I’m working in Globant as Data Scientist advisor. Beside, I worked as lecturer teaching robotics and computer networks.
 
 Education
 ======
-* B.S. in Telematics Engineer, ITAM, 2015
+* Diplima in Applied Machine Learning, 2019
 * M.S. in Computer Science, ITAM, 2017
+* B.S. in Telematics Engineer, ITAM, 2015
 
 Work experience
 ======
+* Mar 2019: Data Scientist Advisor 
+  * Improve Machine learning models of domestic violence for Uruguay, Brazil and Honduras using Python and docker.
+  * Translate business requirements into machine learning product for international clients, such as Scoring, AI Call Analyzer and HR Chatbot.
+
 * Sept 2018: Head of Data Science 
   * Generation of models of custumer to target marketing targets
   * USING NLP and NLQ to improve internal process
