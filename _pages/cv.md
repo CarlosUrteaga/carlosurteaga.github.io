@@ -11,7 +11,9 @@ redirect_from:
 
 Applied & Data Scientist, Machine & Deep Learning Engineer, Analytics, IoT, Computer Vision, Python, Robotics, IA, BI 
 
-In the last years, I have been working as DS where I design and perform machine learning models for predictions and detection using Python. Today I’m working in Globant as advisor. Beside, I worked as lecturer teaching robotics and computer networks. I start to analyze the data quality of the covid cases in Mexico City
+In the last years, I have been working as DS where I design and perform machine learning models for predictions and detection using Python. Today I’m working in Globant as advisor. Beside, I worked as lecturer teaching robotics and computer networks. I start to analyze the data quality of the covid cases in Mexico City.
+
+Today I'm analyzing the data quality of COVID19 in Mexico city https://github.com/CarlosUrteaga/COVID19MX
 
 Education
 ======
@@ -21,7 +23,7 @@ Education
 
 Work experience
 ======
-* Mar 2019: Data Scientist Advisor 
+* Mar 2019: Data Scientist 
   * IA platform to detect, count, track and identify people in the building, the tools used to perform the task was Python, TensorFlow with Keras and Flask. 
   * Recidivism model (XGBoost) for LATAM using demographic information. This task requiere a feature engineering to extract insights between the parts.
   * D3 (data driven discovery) for the financial and IT are. Understand business needs and opportunities to drive the discovery cycles on both descriptive and predictive analytics. We propose RPA, optimization and dashboard to solve theirs pains
@@ -46,25 +48,15 @@ Work experience
   * Proposed and present of Research and Advisory on Fraud, Mobility, Health, Telecommunications, etc.
   * Analyze and promoted distributed systems solutions with HDFS, Hadoop, SPARK and Pig, multiples POCs was realized.
 
-Skills
+Tools
 ======
 * Python
-  * Scikit Learn
-  * Pandas
-  * Tensorflow
-  * Keras
-  * OpenCV
-  * Flask
-  * Request
 * ROS
 * Arduino
 * Docker
 * SQL
 * H2O
 * Big Data
-  * Hadoop
-  * Spark
-  * Hive
 
 Publications
 ======

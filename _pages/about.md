@@ -10,43 +10,50 @@ redirect_from:
 
 {% include base_path %}
 
-Innovation, Data scientist, Big Data, Machine & Deep Learning, Entrepreneur, IoT, Computer Vision, Python, Analytics
-
-I’m data scientist and entrepreneur. I like to improve models of classification using behavior with historical records. My main language for modeling is Python and favorite platform is SMACK. Today I’m working in a Financial institute to detect customer behavior and I had increase the score in 15 percentege. Beside, I worked as lecturer teaching robotics and computer networks.
+In the last years, I have been working as Data Scientist solving data problems through the ingestion to implementation. I enjoy analyzing and describing changes on the records on each update, this allow me  to understand the problem and the data deeply.  Also, I have been working with computer vision to improve the current solution in buildings
 
 Education
 ======
-* B.S. in Telematics Engineer, ITAM, 2015
 * M.S. in Computer Science, ITAM, 2017
+* B.S. in Telematics Engineer, ITAM, 2015
 
-Work experience
+Work experience summarized
 ======
-* Sept 2018: Head of Data Science 
-  * Generation of models of custumer to target marketing targets
-  * USING NLP and NLQ to improve internal process
-  * Focus the innovation using AI, ML and IoT
+* March 2019: Data Scientist advisor
+  * Modeling, computer vision, data ingestion and quality
+  * Sectors Financial, TI and Retail
 
-* May 2018: Sr. Data Science
-  * Customer behavior detection from IVR dataset
-  * Dashboard for Marketing Activities
+* September 2019: Head of Data Science
+  * Modeling, NLP, Model and Data Version Control
+  * Financial institution
+
+* May 2018: Data Scientist Sr.
+  * Customer behavior and BI
+  * Telcomuncations
   
-* Oct 2017: Sr of Information Security
-  * Management of users a national level to waranty a follow of IT policies, this is accomplishment using python and Machine Learning (Random Forest)
-  * Data analyst for compliance and monthly report of computer status to report unauthorized behavior. 
-  * Manage and report Information Security incident to KPMG Global
+* Oct 2017: Information Security Sr. 
+  * Complience, Logs analysis and Modeling
+  * TI
 
-* Ago 2017: Research Assistant
-  * Proposed and present of Research and Advisory on Fraud, Mobility, Health, Telecommunications, etc.
-  * Analyze and promoted distributed systems solutions with HDFS, Hadoop, SPARK and Pig, multiples POCs was realized.
+* Since 2012: Research Assistant
+  * Research and Advisory on Fraud, Mobility, Health, Telecommunications, etc.
+  * Mobile development, Dev Ops
 
 Skills
 ======
 * Python
   * Scikit Learn
   * Pandas
-* R
-  * ggplot
-  * tydir
+  * Tensorflow
+  * Keras
+  * OpenCV
+  * Flask
+  * Request
+* ROS
+* Arduino
+* Docker
+* SQL
+* H2O
 * Big Data
   * Hadoop
   * Spark
