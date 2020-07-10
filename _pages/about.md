@@ -12,6 +12,8 @@ redirect_from:
 
 In the last years, I have been working as Data Scientist solving data problems through the ingestion to implementation. I enjoy analyzing and describing changes on the records on each update, this allow me  to understand the problem and the data deeply.  Also, I have been working with computer vision to improve the current solution in buildings
 
+Today I'm analyzing the data quality of COVID19 in Mexico city https://github.com/CarlosUrteaga/COVID19MX
+
 Education
 ======
 * M.S. in Computer Science, ITAM, 2017
@@ -39,25 +41,15 @@ Work experience summarized
   * Research and Advisory on Fraud, Mobility, Health, Telecommunications, etc.
   * Mobile development, Dev Ops
 
-Skills
+Tools
 ======
 * Python
-  * Scikit Learn
-  * Pandas
-  * Tensorflow
-  * Keras
-  * OpenCV
-  * Flask
-  * Request
 * ROS
 * Arduino
 * Docker
 * SQL
 * H2O
 * Big Data
-  * Hadoop
-  * Spark
-  * Hive
 
 Publications
 ======
@@ -76,3 +68,10 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+  
+Hobbies
+======
+* Cooking
+* Playing guitar
+* Running
