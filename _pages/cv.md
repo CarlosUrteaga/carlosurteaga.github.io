@@ -15,7 +15,8 @@ In the last years, I have been working as DS where I design and perform machine 
 
 Today I'm analyzing the data quality of [COVID19 in Mexico city](https://github.com/CarlosUrteaga/COVID19MX)
 [pdf version](https://drive.google.com/file/d/1ScMWczRvgZM24D1_ksXXCa3Vnx5z6C9L/view?usp=sharing)
-() []
+
+
 Education
 ======
 * Diplom in Applied Machine Learning, 2019
