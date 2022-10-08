@@ -11,10 +11,8 @@ redirect_from:
 
 Applied & Data Scientist, Machine & Deep Learning Engineer, Analytics, IoT, Computer Vision, Python, Robotics, IA, BI 
 
-In the last years, I have been working as DS where I design and perform machine learning models for predictions and detection using Python. Today I’m working in Globant as advisor. Beside, I worked as lecturer teaching robotics and computer networks. I start to analyze the data quality of the covid cases in Mexico City.
+In the last years, I have been working as DS where I design and perform machine learning models for predictions and detection using Python. Today I’m working in Globant as Data Scientist. Beside, I has worked as lecturer teaching robotics and computer networks. I start to analyze the data quality of the covid cases in Mexico City.
 
-Today I'm analyzing the data quality of [COVID19 in Mexico city](https://github.com/CarlosUrteaga/COVID19MX)
-[pdf version](https://drive.google.com/file/d/1ScMWczRvgZM24D1_ksXXCa3Vnx5z6C9L/view?usp=sharing)
 
 
 Education
@@ -26,11 +24,15 @@ Education
 Work experience
 ======
 * Mar 2019: Data Scientist 
-  * IA platform to detect, count, track and identify people in the building, the tools used to perform the task was Python, TensorFlow with Keras and Flask. 
-  * Recidivism model (XGBoost) for LATAM using demographic information. This task requiere a feature engineering to extract insights between the parts.
-  * D3 (data driven discovery) for the financial and IT are. Understand business needs and opportunities to drive the discovery cycles on both descriptive and predictive analytics. We propose RPA, optimization and dashboard to solve theirs pains
-  * Data lake ingestion from multiples POS, data wrangling (analyze, extract, match and duplication techniques)
-  * Migration of Catalogue using python and docker. 
+  * Propose and design MLOps (Machine Learning Operations) flow to monitoring and retrain a ML model. This set the baseline that was adapted to other projects.
+  * Lead a multidisciplinary team with Kanban to predict seniority using demographic information and the resume.. The ML model is a staking model and uses streaming data through multithread. Tools used were Celery, Python, Flask, Docker.
+  * Design an architecture to transform a Jupyter notebook to productive REST API, the API were delivered one month before expected including quality test.
+  * Implement a data pipeline to extract information from point of sales with different data type.s The pipeline allows to detect 50 % new products using Python on a GCP platform.
+  * Develop an AI solution for face recognition and people counting using Deep Learning on Python with Keras, and flask. The obtained performance was 90 % from a company with more than 330,000 employees.
+  * Perform a Data-driven discovery to minimize cost for the IT area. The estimated saving cost was 25% for each celular bill
+  * Create a machine learning model to detect domestic violence for Uruguay, Brazil, and Honduras, the model is able to detect the 82 recidivism case from 100 on each period.
+  * Translate business requirements into machine learning product for international clients, such as Scoring, AI Call Analyzer and HR Chatbot.
+  * Generated universal dashboard to evaluate marketing activities using Tableau, presenting results in less than a week.
 
 * Sept 2018: Head of Data Science 
   * Generation of models of custumer to target marketing targets
