@@ -13,7 +13,9 @@ Applied & Data Scientist, Machine & Deep Learning Engineer, Analytics, IoT, Comp
 
 In the last years, I have been working as DS where I design and perform machine learning models for predictions and detection using Python. Today I’m working in Globant as advisor. Beside, I worked as lecturer teaching robotics and computer networks. I start to analyze the data quality of the covid cases in Mexico City.
 
-Today I'm analyzing the data quality of COVID19 in Mexico city https://github.com/CarlosUrteaga/COVID19MX
+Today I'm analyzing the data quality of [COVID19 in Mexico city](https://github.com/CarlosUrteaga/COVID19MX)
+[pdf version](https://drive.google.com/file/d/1ScMWczRvgZM24D1_ksXXCa3Vnx5z6C9L/view?usp=sharing)
+
 
 Education
 ======
