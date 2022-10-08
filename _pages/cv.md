@@ -48,15 +48,26 @@ Work experience
   * Proposed and present of Research and Advisory on Fraud, Mobility, Health, Telecommunications, etc.
   * Analyze and promoted distributed systems solutions with HDFS, Hadoop, SPARK and Pig, multiples POCs was realized.
 
+
 Tools
 ======
 * Python
+  * Scikit Learn
+  * Pandas
+  * Tensorflow
+  * Keras
+  * OpenCV
+  * Flask
+  * Request
 * ROS
 * Arduino
 * Docker
 * SQL
 * H2O
 * Big Data
+  * Hadoop
+  * Spark
+  * Hive
 
 Publications
 ======
