@@ -18,13 +18,14 @@ Currently he leads an MLOps squad to standardize different tools and practices t
 Education
 ======
 
-* Ph.D. in Computer Science, UNADE, (expected 2025)
+* Ph.D. in Computer Science, UNADE, (expected 2026)
 * M.S. in Computer Science, ITAM, 2017
 * B.S. in Telematics Engineer, ITAM, 2015
 
 Work experience summarized
 ======
 * March 2019: Data Scientist advisor
+  * Implement Github migration  using API and PythonGit
   * Design a recommended system for technical interview matcher with Python, sklearn and flask. This accelerate the interview schedule from 3 days to 1 day.
   * Implement a data pipeline to enhance the quality of data extraction using regular expression. The quality was improved 80% when the data is incompleated.
   * Develop an AI solution for face recognition and people counting using Deep Learning on Python with Keras, and flask. The obtained performance was 90% from a company with more than 330,000 employees.
