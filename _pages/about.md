@@ -12,28 +12,26 @@ redirect_from:
 Carlos is a Ph.D. student  an currently is a Data Scientist and ML Engineer who has been involved in different sectors such as Financial, Education, Retail, and Telecommunication for more than nine years. He has played a crucial role as MLOps engineer, where he deployed pipelines for integration, training and prediction using different architecture approaches to follow up model performance. Carlos has a strong foundation in computer science and machine learning. In addition, he played as a research assistant for a leading University at Mexico in the development of AI algorithms for pattern recognition and robotics using computer vision.
 
 
-Currently he works on Generative AI to standardize different LLMs model to have  only one  access  and  include RAGs.
+Currently he works on Generative AI to standardize different LLMs model on a private cloud, this allows to have meet security data compliance when a file is uploaded.
 
-Education
+You can watch my fullcv at CV tab
+
+CurrentEducation
 ======
 
 * Ph.D. student in Computer Science, UNADE, (expected 2026)
 
-Work experience
+CurrentWork experience
 ======
-* Currently: Data Scientist 
-
-
+* Data Scientist at Globant.
 
 Tools
 ======
 * Python
-* ROS
+* FastAPI
 * Arduino
 * Docker
 * SQL
-* H2O
-* Big Data
 
 Publications
 ======
@@ -56,6 +54,6 @@ Teaching
 
 Hobbies
 ======
-* Cooking
-* Playing guitar
 * Running
+* Cooking
+* Movie watcher
