@@ -30,7 +30,7 @@ Work experience
     * Designed and coded a Retrieval Augmented Generation system within a private Azure instance, integrating summarization and semantic search functionalities.
     * Implemented a monitoring system for a machine learning (ML) infrastructure using Grafana and Prometheus, enabling the identification of bottlenecks and resource consumption across multiple models.
   * Data  Scientist Sr II
-    * Propose and design MLOps task to track efficiency of the model, after this I lead MLops team to follow best practices to follow up AI models using MLFlow and ArgoFlow
+    * Propose and design MLOps task to track model efficiency to increase it. The proposition was taken as best practices from other projects. 
     * Design a classification system with random forest for technical interview matchers with 90 % of accuracy.Tools used Python, sk-learn and flask.
     * Extract information from resumes using Natural Language Processing (NLP) and computer vision (CV), each skill repetition and appearance permit create an score
     * Generate a data flow to extract, import and evaluate a candidate to suggest a studio. Use ensemble models with KNN and random forest to resilient the data inconsistencies.
