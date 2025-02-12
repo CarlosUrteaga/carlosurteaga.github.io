@@ -9,58 +9,56 @@ redirect_from:
 
 {% include base_path %}
 
-Carlos is a Ph.D. student  an currently is a Data Scientist and ML Engineer who has been involved in different sectors such as Financial, Education, Retail, and Telecommunication for more than nine years. He has played a crucial role as MLOps engineer, where he deployed pipelines for integration, training and prediction using different architecture approaches to follow up model performance. Carlos has a strong foundation in computer science and machine learning. In addition, he played as a research assistant for a leading University at Mexico in the development of AI algorithms for pattern recognition and robotics using computer vision.
+Carlos is a Ph.D. student and currently works as a Data Scientist and ML Engineer, boasting over nine years of experience across various sectors, including finance, education, retail, and telecommunications. In his role as an MLOps engineer, he has been instrumental in deploying pipelines for integration, training, and prediction, utilizing diverse architectural approaches to monitor and enhance model performance. With a strong foundation in computer science and machine learning, Carlos has also served as a research assistant at a leading university in Mexico, where he contributed to the development of AI algorithms for pattern recognition and robotics using computer vision.
 
-Currently he works on Generative AI to standardize different LLMs model to have  only one  access  and  include RAGs.
+Currently he works on Generative AI to standardize different LLMs model to have only one access and  include a enviroment for agents and RAGs.
 
 Education
 ======
-* Ph.D. student in Computer Science, UNADE, (expected 2026)
-* Diplom in Applied Machine Learning, 2019
-* M.S. in Computer Science, ITAM, 2017
-* B.S. in Telematics Engineer, ITAM, 2015
+* Ph.D. student in Computer Science, UNADE, (expected 2026).
+  * Topics of interest MLOps, LLMs, and Responsible AI.
+* M.S. in Computer Science, ITAM, 2017.
+  * Tesis: Detection of churn for microcredits using machine learning methods
+* B.S. in Telematics Engineer, ITAM, 2015.
+  * Developed a mobile app using computer vision and ML to identify venomous scorpions.
 
 Work experience
 ======
 * From March 2019 until today: 
   * Data Scientist Sr III
-    Currently working as staff augmentation for a Big Four  company.
-    * Identified and evaluated emerging technologies for GenAi and MLops tools for potential implementation in Azure, focusing on reducing complexity.
-    * Generated a Proof of Concept (POC) for WhisperAI for calls and meetings, demonstrating the extraction of summaries and action points.
-    * Designed and coded a Retrieval Augmented Generation system within a private Azure instance, integrating summarization and semantic search functionalities.
-    * Implemented a monitoring system for a machine learning (ML) infrastructure using Grafana and Prometheus, enabling the identification of bottlenecks and resource consumption across multiple models.
+    * LLM Setup and Customization: Designed and implemented a flexible LLM configuration that allows users to choose their preferred model flavor—such as Google Gemini or ChatGPT.
+    * Cross-Cloud Integration for Retrieval-Augmented Generation: Enhanced Google Gemini’s capabilities by modifying existing code to introduce a service that transfers files between Azure and Google Cloud, thereby supporting retrieval-augmented generation workflows.
+    * Agent Generation Sandbox: Developed an agent generation system using tool functions in the OpenAI API. This sandbox environment enables the LLM to execute code, answer questions about Excel files, and even create PowerPoint presentations via the pptx Python library.
+    * LLM Production Deployment: Configured production environments and established robust testing workflows to deploy an LLM that supports up to 30,000 users.
+    * Internal Chat Application with Advanced Query Features: Built an internal chat application powered by a retrieval-augmented (RAG) LLM using Python, FastAPI, and Azure. This solution allows users to upload files and generate queries, with an integrated API providing summary and semantic search capabilities for a platform serving 60,000 users.
+    * MLOps Platform Evaluations: Assessed various MLOps platforms—including IBM OpenScale, Domino DataLab, and Fosfor—using the German Credit dataset to evaluate different aspects of model lifecycle management.
+    * Enhanced Unit Testing for MLOps Projects: Defined and implemented comprehensive unit tests for an MLOps project in Python, resulting in a 40% increase in test coverage.
   * Data  Scientist Sr II
-    * Propose and design MLOps task to track model efficiency to increase it. The proposition was taken as best practices from other projects. 
-    * Design a classification system with random forest for technical interview matchers with 90 % of accuracy.Tools used Python, sk-learn and flask.
-    * Extract information from resumes using Natural Language Processing (NLP) and computer vision (CV), each skill repetition and appearance permit create an score
-    * Generate a data flow to extract, import and evaluate a candidate to suggest a studio. Use ensemble models with KNN and random forest to resilient the data inconsistencies.
-    * Designed a Talent Acquisition model aimed at matching interviewers and evaluators efficiently. Utilized Intelligent Scheduling techniques to analyze availability through calendar integration, accounting for time zones and language restrictions, resulting in time savings.
-    * Proposed and designed an MLOps task to monitor and optimize the efficiency of the Talent Acquisition model, incorporating queue management for streamlined operations. Led an MLOps team in the implementation of industry best practices for AI model management, leveraging MLFlow and ArgoFlow for comprehensive tracking and optimization.
-    * Designed a classification system employing random forest algorithms to match technical interviewers with candidates, achieving a remarkable accuracy rate of 90%. Employed Python, scikit-learn, and Flask for implementation.
-    * Leveraged Natural Language Processing (NLP) and computer vision (CV) techniques to extract information from resumes. Developed algorithms to score each skill based on its repetition and appearance, enhancing candidate evaluation.
-    * Engineered a data flow pipeline to extract, import, and evaluate candidate data for suggesting suitable studio placements. Employed ensemble models, including KNN and random forest, to mitigate data inconsistencies and enhance resilience in candidate evaluation processes.
+    * MLOps for Model Efficiency: Proposed and designed an MLOps solution to track and improve model efficiency by incorporating best practices from previous projects.
+    * Classification System for Interview Matching: Designed a classification system using a random forest algorithm to match technical interviewers with candidates, achieving a 90% accuracy rate. Tools used include Python, scikit-learn, and Flask.
+    * Resume Information Extraction: Leveraged Natural Language Processing (NLP) and Computer Vision (CV) techniques to extract data from resumes. Developed algorithms that score skills based on their frequency and prominence, thereby enhancing candidate evaluation.
+    * Data Flow Pipeline for Candidate Evaluation: Engineered a data flow pipeline to extract, import, and evaluate candidate information for optimal studio placements. Employed ensemble models—such as KNN and random forest—to mitigate data inconsistencies and improve overall robustness.
+    * Talent Acquisition Model: Designed a comprehensive Talent Acquisition model aimed at efficiently matching interviewers with evaluators. Utilized intelligent scheduling techniques by analyzing calendar availability, accounting for time zones and language restrictions, which resulted in significant time savings.
+    * MLOps for Talent Acquisition: Proposed and implemented an MLOps task to monitor and optimize the efficiency of the Talent Acquisition model. Incorporated queue management for streamlined operations and led a team in adopting industry best practices using MLFlow and ArgoFlow for comprehensive tracking and optimization.
   * Data  Scientist Sr I
-    * Augmentation staff as Data Architect to migrate a retail catalog from legacy to snowflake, each retail has their own data description and the project was to concentrate this information into Snowflake for all latinoamerica countries with 250,000 business.
-    * Develop a pipeline to extract, clean and substitute information according to industry product masters and select the features.
-    * Deploy and connect APIs over Flask to connect different sources and complement the information.
-    * Python and Dask workshop, show pros and cons of dask to use in the different projects. 
-    * Implement a data pipeline to enhance the quality of data extraction using regular expression. The quality was improved by 80% when the data was incomplete. Tools used, pandas, sklearn, python and docker. 
-    * Create an ETL to add information from different sources into the data lake, some supported formats were XML, JSON and CSV.
-    * Identify the industry product master field to match with a regular expression.
-    * Using a VM (virtual machine) with Compute Engine on GCP, configure a docker to have a productive environment to extract the current data.
-    * Generate a demographic report from each PoS dynamically.
-    * Develop an AI solution for face recognition and people counting using Deep learning using only a few pictures. The solution involves data augmentation, face recognition and identification, object tracking, those must bear over a web service with real-time streaming (video and text).The tools used were Python, TensorFlow, Keras and Flask.
-    * Data driven discovery to minimize cost for the IT area, we proposed a cost optimization for mobile phone plans and a Dashboard to generate reports and have enough visibility to enable agile decision-making. 
-    * Implemented a xgboost model in Python + Docker and some NLP to detect domestic violence.
-    * Generation of profile risk using feature engineering in order to predict the recidivism for LATAM mainly in Brazil, Uruguay and Honduras.
+    * Data Architecture & Migration: Augmented the team as a Data Architect to migrate a retail catalog from legacy systems to Snowflake. Consolidated heterogeneous retail data from 250,000 businesses across Latin American countries.
+    * Pipeline & ETL Development: Developed robust pipelines to extract, clean, and transform data in line with industry product masters, including feature selection. Created an ETL process to ingest data from multiple formats (XML, JSON, CSV) into a centralized data lake.
+    * API & Environment Setup: Deployed Flask-based APIs to integrate various data sources and enhance data completeness. Configured a Docker container on a GCP Compute Engine VM to create a productive environment for data extraction.
+    * Quality Improvement: Implemented a data extraction pipeline using regular expressions that improved data quality by 80% in cases of incomplete data (using Python, pandas, scikit-learn, and Docker).
+    * Field Identification & Reporting: Standardized industry product master fields through regular expression matching and dynamically generated demographic reports from each Point of Sale (PoS).
+    * Python and Dask Workshop: Led a workshop on Python and Dask, highlighting the advantages and limitations of Dask for various projects.
+    * Face Recognition & People Counting: Developed an AI solution for face recognition and people counting using deep learning with minimal image data. The solution included data augmentation, face recognition/identification, and object tracking, and was deployed as a real-time web service (video and text) using Python, TensorFlow, Keras, and Flask.
+    * Domestic Violence Detection: Implemented an XGBoost model with integrated NLP, containerized with Docker, to detect domestic violence.
+    * Risk Profile Prediction: Engineered a risk profiling model using feature engineering to predict recidivism rates in Latin America, with a focus on Brazil, Uruguay, and Honduras.
+    * Cost Optimization & Decision-Making: Conducted data-driven discovery projects to reduce IT costs by optimizing mobile phone plans and developing a comprehensive dashboard that enables agile decision-making.
 
 * September 2018 to March 2019 : Head of Data Science
-  * Developed ML model for churn and default with Python, SQL,H2O, and Flask
-  * Architect and Build machine learning software products for our core from local computer to use and hybrid setup for big data (AWS).
-  * Lead all aspects of ML automation including model training and development, feature selection and model tuning with DM-CRISP Implementation. 
-  * Evaluated the performance of projects using propensity score. This allows us to evaluate the impact compared without it. Generation of dashboard using Tableau.
-  * Perform and speed up the business as usual in SQL query and batch script. 
-  * Propose ROI method with a genetic algorithm to identify the best option between risk for each loan
+  * Churn and Default Modeling: Developed machine learning models for churn prediction and default risk using Python, SQL, H2O, and Flask.
+  * Software Product Architecture: Architected and built machine learning software products for core operations, transitioning from local computing to a hybrid setup on AWS for big data processing.
+  * ML Automation Leadership: Led end-to-end ML automation, overseeing model training, feature selection, and tuning, following the DM-CRISP framework.
+  * Performance Evaluation and Reporting: Evaluated project performance using propensity score analysis to assess impact differences and generated interactive dashboards with Tableau.
+  * Process Optimization: Optimized routine business operations by streamlining SQL queries and batch scripts.
+  * Risk and ROI Optimization: Proposed an ROI evaluation method employing a genetic algorithm to identify the optimal risk strategy for each loan.
 
 * May 2018: Data Scientist Sr.
   * Analyzed and cleaned IVR data to recognize temporality and types of request through Python, Hadoop and SQL. This focus marketing activity invites users to install the Graphic IVR. 
@@ -142,6 +140,13 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+Courses
+=======
+
+* Diplom in Applied Machine Learning, 2019
+* 
+Hobbies
+======
 
 Hobbies
 ======
