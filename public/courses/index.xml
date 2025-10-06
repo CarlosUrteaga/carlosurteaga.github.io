@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Courses on Carlos Urteaga Reyesvera</title>
+    <link>http://localhost:1313/courses/</link>
+    <description>Recent content in Courses on Carlos Urteaga Reyesvera</description>
+    <image>
+      <title>Carlos Urteaga Reyesvera</title>
+      <url>http://localhost:1313/cover.png</url>
+      <link>http://localhost:1313/cover.png</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Economic Slack</title>
+      <link>http://localhost:1313/w/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/w/</guid>
+      <description>This graduate course develops a model of economic slack. The model is used to study business-cycle fluctuations, monetary policy, and fiscal policy.</description>
+    </item>
+    <item>
+      <title>Unemployment</title>
+      <link>http://localhost:1313/v/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/v/</guid>
+      <description>This course develops a model of unemployment. The model is used to study unemployment fluctuations, efficient unemployment, and labor market policies.</description>
+    </item>
+    <item>
+      <title>Business Cycles and How to Tame Them</title>
+      <link>http://localhost:1313/z/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/z/</guid>
+      <description>This minicourse describes business cycles, develops a matching model to explain them, and discusses how monetary and fiscal policy can tame them.</description>
+    </item>
+    <item>
+      <title>Intermediate Macroeconomics</title>
+      <link>http://localhost:1313/y/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/y/</guid>
+      <description>This undergraduate course covers IS-LM model of business cycles, matching model of unemployment, inflation, and Malthusian and Solowian models of growth.</description>
+    </item>
+    <item>
+      <title>Mathematics for Macroeconomics</title>
+      <link>http://localhost:1313/x/</link>
+      <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/x/</guid>
+      <description>This graduate course covers basic mathematical methods for macroeconomics: dynamic programming, optimal control, and differential equations.</description>
+    </item>
+  </channel>
+</rss>
