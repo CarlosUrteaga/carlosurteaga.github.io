@@ -1,33 +1,21 @@
-From Original Repo
+# pascalmichaillat.org - Source Code and Content
 
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+This repository contains the source code and content for Pascal Michaillat's website at https://pascalmichaillat.org. 
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+## Source code
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
++ The website is generated with [Hugo](https://github.com/gohugoio/hugo). 
++ The source code is adapted from [hugo-website](https://github.com/pmichaillat/hugo-website), a minimalist template for academic websites.
 
-# Instructions
+## Content
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
++ [Research papers](https://pascalmichaillat.org/papers/) - Papers and online appendices are stored as PDF files in the `static` folder. Metadata are stored as Markdown files in the `content/papers` folder.
++ [Course materials](https://pascalmichaillat.org/courses/) - Lecture notes, lecture slides, and homework are stored as PDF files in the `static` folder. Course plans are stored as Markdown files in the `content/courses` folder.
++ [Design templates](https://pascalmichaillat.org/design/) - Documentation for design templates is stored as Markdown files in the `content/design` folder.
++ [Automated business cycle dashboard](https://pascalmichaillat.org/dashboard/) - Python code to create the dashboard graphs is stored in the `content/dashboard` folder. Dashboard architecture is stored as a Markdown file in the `content/dashboard` folder. Dashboard graphs are stored as HTML files in the `static/dashboard` folder, and underlying data are stored as CSV files in the same folder.
++ Content can be batch downloaded by cloning this repository.
 
-See more info at https://academicpages.github.io/
+## License
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
-
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-
-# Changelog -- bugfixes and enhancements
-
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
-
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
++ The source code is licensed under the [MIT License](LICENSE.md).
++ The content is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), except where otherwise noted.
