@@ -2,9 +2,9 @@
 title: "Papers"
 aliases: 
     - /archive/
-author: ["Pascal Michaillat"]
-description: "Research papers on unemployment, economic slack, business cycles, monetary policy, fiscal policy, and metascience."
+author: ["J. Carlos Urteaga-Reyesvera"]
+description: "Research papers on computer science and AI."
 cover:
-    image: "/papers.png"
-    alt: "Michez rule the United States, 1960–2024"
+    # image: "/papers.png"
+    alt: "Papers"
 ---

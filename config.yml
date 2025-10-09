@@ -16,13 +16,13 @@ menu:
           weight: 2
         # - name: Dashboard
         #   url: dashboard/
-          weight: 3
+        #   weight: 3
         - name: Courses
           url: courses/
-          weight: 4
-        - name: Design
-          url: design/
-          weight: 5        
+          weight: 3
+        # - name: Design
+        #   url: design/
+        #   weight: 5        
 
 params:
     description: "This website hosts Carlos Urteaga's research papers and professional carrer."
@@ -69,8 +69,8 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:carlos.urteaga@outlook.com
-        - name: Location
-          url: location/
+        # - name: Location
+        #   url: location/
         # - name: Office Hours
         #   url: officehours/
         - name: Google Scholar
