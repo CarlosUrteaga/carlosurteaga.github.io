@@ -94,7 +94,7 @@ params: # optional Windows tile color
         hiddenInSingle: true
     label:
       text: "Carlos Urteaga"
-      icon: favicon1.ico
+      icon: favicon.ico
       iconHeight: 18
 
 markup:
