@@ -24,7 +24,7 @@ menu:
         #   url: design/
         #   weight: 5        
 
-params:
+params: # optional Windows tile color
     description: "This website hosts Carlos Urteaga's research papers and professional carrer."
     author: Carlos Urteaga
     googleAnalyticsID: "G-97G4MZ4061"
@@ -82,11 +82,20 @@ params:
 
     assets:
         disableScrollBarStyle: true
+        favicon16x16: "/favicon-16x16.png"
+        favicon32x32: "/favicon-16x16.png"
+        apple_touch_icon: "/apple-touch-icon.png"
+        theme_color: "#0c0f19"              # option
+        favicon: "/favicon.ico?v=2"
+        safari_pinned_tab: "/safari-pinned-tab.svg"
+        msapplication_TileColor: "#0b0a19" 
     cover:
         hiddenInList: true
         hiddenInSingle: true
     label:
       text: "Carlos Urteaga"
+      icon: favicon1.ico
+      iconHeight: 18
 
 markup:
     goldmark:
