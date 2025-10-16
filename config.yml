@@ -77,6 +77,8 @@ params: # optional Windows tile color
           url: https://scholar.google.com/citations?user=qlL6Ef8AAAAJ&hl=es
         # - name: YouTube
         #   url: https://www.youtube.com/@pmichaillat
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/carlos-urteaga/
         - name: GitHub
           url: https://github.com/CarlosUrteaga
 
