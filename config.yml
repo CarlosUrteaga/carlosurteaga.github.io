@@ -50,10 +50,10 @@ params: # optional Windows tile color
     profileMode:
           enabled: true
           title: Carlos Urteaga
-          subtitle: "Carlos is a Ph.D. student an currently is a Data Scientist and ML Engineer who has been involved in different sectors such as Financial, Education, Retail, and Telecommunication for more than nine years. He has played a crucial role as MLOps engineer, where he deployed pipelines for integration, training and prediction using different architecture approaches to follow up model performance. Carlos has a strong foundation in computer science and machine learning. In addition, he played as a research assistant for a leading University at Mexico in the development of AI algorithms for pattern recognition and robotics using computer vision. Currently he works on Generative AI to standardize different LLMs model on a private cloud, this allows to have meet security data compliance when a file is uploaded. He is currently open to research internships in AgentOps, AI Agents, RAG evaluation, and MLOps."
+          subtitle: "Carlos is a Ph.D. student an currently is a Data Scientist and ML Engineer who has been involved in different sectors such as Financial, Education, Retail, and Telecommunication for more than nine years. He has played a crucial role as MLOps engineer, where he deployed pipelines for integration, training and prediction using different architecture approaches to follow up model performance. Carlos has a strong foundation in computer science and machine learning. In addition, he played as a research assistant for a leading University at Mexico in the development of AI algorithms for pattern recognition and robotics using computer vision. Currently he works on Generative AI to standardize different LLMs model on a private cloud, this allows to have meet security data compliance when a file is uploaded.\n\n He is currently open to research internships in AgentOps, AI Agents, RAG evaluation, and MLOps."
           imageUrl: "/picture.png"
-          imageWidth: 120
-          imageHeight: 130
+          imageWidth: 180
+          imageHeight: 240
           buttons:
             - name: Papers
               url: papers/
