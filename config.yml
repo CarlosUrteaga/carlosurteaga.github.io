@@ -27,7 +27,7 @@ menu:
 params: # optional Windows tile color
     description: "This website hosts Carlos Urteaga's research papers and professional carrer."
     author: Carlos Urteaga
-    googleAnalyticsID: "G-2Q2JH91MZC"
+    googleAnalyticsID: "G-DNY40LFGQ4"
     images: ["cover.png"]
     DateFormat: "January 2006"
     defaultTheme: light
