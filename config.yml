@@ -27,7 +27,7 @@ menu:
 params:
     description: "This website hosts Carlos Urteaga's research papers and professional carrer."
     author: Carlos Urteaga
-    googleAnalyticsID: "G-97G4MZ4061"
+    googleAnalyticsID: "G-2Q2JH91MZC"
     images: ["cover.png"]
     DateFormat: "January 2006"
     defaultTheme: light
