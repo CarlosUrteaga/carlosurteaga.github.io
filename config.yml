@@ -27,7 +27,7 @@ menu:
 params: # optional Windows tile color
     description: "This website hosts Carlos Urteaga's research papers and professional carrer."
     author: Carlos Urteaga
-    googleAnalyticsID: "G-DNY40LFGQ4"
+    googleAnalyticsID: "G-97G4MZ4061"
     images: ["cover.png"]
     DateFormat: "January 2006"
     defaultTheme: light
@@ -50,7 +50,7 @@ params: # optional Windows tile color
     profileMode:
           enabled: true
           title: Carlos Urteaga
-          subtitle: "Ph.D. student and Data Scientist at Globant specializing in Machine Learning and Operational AI systems. With over nine years of experience across the Financial, Educational, Retail, and Telecommunication sectors, he has deployed scalable MLOps pipelines for model training, monitoring, and governance. \n His current research explores the operational maturity of AI Agents, focusing on the standardization of their documentation and governance. Author of the Agent Cards framework—a lightweight specification inspired by Model Cards and FactSheets—he studies how artifacts such as Agent Contracts, Agent Types, and Agent Ledgers can ensure accountability, traceability, and lifecycle maturity in multi-agent ecosystems.\nBroader interests include AgentOps, LLMOps, RAG evaluation, and generative-model compliance within secure cloud environments. He is currently open to research collaborations and internships related to operational AI, agentic systems, and responsible autonomy."
+          subtitle: "Ph.D. student and Data Scientist at Globant specializing in Machine Learning and Operational AI systems. With over nine years of experience across the Financial, Educational, Retail, and Telecommunication sectors, he has deployed scalable MLOps pipelines for model training, monitoring, and governance. \n\n His current research explores the operational maturity of AI Agents, focusing on the standardization of their documentation and governance. Author of the Agent Cards framework—a lightweight specification inspired by Model Cards and FactSheets—he studies how artifacts such as Agent Contracts, Agent Types, and Agent Ledgers can ensure accountability, traceability, and lifecycle maturity in multi-agent ecosystems.\n\n Broader interests include AgentOps, LLMOps, RAG evaluation, and generative-model compliance within secure cloud environments. He is currently open to research collaborations and internships related to operational AI, agentic systems, and responsible autonomy."
           imageUrl: "/picture.png"
           imageWidth: 180
           imageHeight: 240
