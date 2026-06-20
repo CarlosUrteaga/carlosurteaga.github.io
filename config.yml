@@ -14,15 +14,15 @@ menu:
         - name: Papers
           url: papers/
           weight: 2
-        # - name: Dashboard
-        #   url: dashboard/
-        #   weight: 3
+        - name: Projects
+          url: projects/
+          weight: 3
         - name: Courses
           url: courses/
-          weight: 3
-        # - name: Design
-        #   url: design/
-        #   weight: 5        
+          weight: 4
+        - name: About
+          url: about/
+          weight: 5
 
 params: # optional Windows tile color
     description: "This website hosts Carlos Urteaga's research papers and professional career."
@@ -50,33 +50,27 @@ params: # optional Windows tile color
     profileMode:
           enabled: true
           title: Carlos Urteaga
-          subtitle: "Ph.D. student and Data Scientist at Globant focused on the operational maturity of AI Agents.\n\n\nHe designs and deploys agentic AI systems in production environments, bridging research, engineering, and governance.\n\n\nWith over nine years of experience across Financial, Educational, Retail, and Telecommunications sectors, he has built scalable AI workflows, RAG systems, and LLM-powered agents with strong emphasis on evaluation, monitoring, and reliability in cloud environments.\n\n\nHis research introduces practical standards for agent governance, including Agent Cards, Agent Contracts, Agent Types, and Agent Ledgers—a framework for documenting, validating, and operating AI agents with accountability and traceability.\n\n\nHis broader interests include AgentOps, LLMOps, RAG evaluation, and responsible autonomy for multi-agent systems.\n\n\nHe is open to research collaborations and internships related to operational AI, agentic architectures, and AI governance."
+          subtitle: "Ph.D. student and Data Scientist at Globant focused on the operational maturity of AI Agents.\n\n\nHe designs production AI systems and researches practical standards for agent governance, evaluation, monitoring, and reliability.\n\n\nOpen to research collaborations and internships related to operational AI, agentic architectures, and AI governance."
           imageUrl: "/picture.png"
           imageWidth: 180
           imageHeight: 240
           buttons:
             - name: Papers
               url: papers/
-            # - name: Dashboard
-            #   url: dashboard/  
+            - name: Projects
+              url: projects/
             - name: Courses
               url: courses/
-            # - name: Design
-            #   url: design/
+            - name: About
+              url: about/
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
           url: mailto:carlos.urteaga@outlook.com
-        # - name: Location
-        #   url: location/
-        # - name: Office Hours
-        #   url: officehours/
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=qlL6Ef8AAAAJ&hl=es
-        # - name: YouTube
-        #   url: https://www.youtube.com/@pmichaillat
         - name: LinkedIn
           url: https://www.linkedin.com/in/carlos-urteaga/
         - name: GitHub

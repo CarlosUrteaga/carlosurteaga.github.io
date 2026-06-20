@@ -1,10 +1,12 @@
 ---
 title: "Logic Circuits" 
 date: 2025-09-11
-url: /x/
+url: /logic-circuits/
+aliases:
+  - /x/
 author: "Carlos Urteaga"
-description: "Hand-on laboratory to understanding Logic gates and micro-controllers " 
-summary: "Course to understand logic gates" 
+description: "Hands-on laboratory for understanding logic gates, FPGAs, and microcontrollers." 
+summary: "Course to understand logic gates." 
 cover:
     alt: "Logic Circuits"
 showToc: true
@@ -13,6 +15,9 @@ disableAnchoredHeadings: false
 ---
 
 ## Objectives
+**Level:** Undergraduate engineering course  
+**Role:** Instructor  
+**Format:** Laboratory
 
 By the end of the lab, students will be able to:
 

@@ -1,5 +1,5 @@
 ---
 title: "Courses"
 author: ["Carlos Urteaga"]
-description: "Undergraduate courses on Digital Circuits, Mechatronics Principles and Computer Networks"
+description: "Undergraduate courses on digital circuits, mechatronics principles, and computer networks."
 ---
