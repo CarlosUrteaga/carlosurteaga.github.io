@@ -30,9 +30,9 @@ params: # optional Windows tile color
     googleAnalyticsID: "G-2Q2JH91MZC"
     images: ["cover.png"]
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: auto
     hideFooter: true
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     ShowWordCount: false

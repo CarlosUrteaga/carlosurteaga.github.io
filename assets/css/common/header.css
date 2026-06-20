@@ -26,6 +26,7 @@
 
 .logo {
     flex-wrap: inherit;
+    align-items: center;
 }
 
 .logo a {
@@ -40,6 +41,33 @@
     transform: translate(0, -10%);
     border-radius: 6px;
     margin-inline-end: 8px;
+}
+
+.logo-switches {
+    display: flex;
+    align-items: center;
+    margin-inline-start: 12px;
+}
+
+button#theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    color: var(--primary);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+body.dark #moon {
+    display: none;
+}
+
+body:not(.dark) #sun {
+    display: none;
 }
 
 /* Navigation menu */

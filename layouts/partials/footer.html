@@ -50,6 +50,23 @@
 
 </script>
 
+{{- if (not site.Params.disableThemeToggle) }}
+<script>
+    const themeToggle = document.getElementById("theme-toggle");
+    if (themeToggle) {
+        themeToggle.addEventListener("click", () => {
+            if (document.body.className.includes("dark")) {
+                document.body.classList.remove("dark");
+                localStorage.setItem("pref-theme", "light");
+            } else {
+                document.body.classList.add("dark");
+                localStorage.setItem("pref-theme", "dark");
+            }
+        });
+    }
+</script>
+{{- end }}
+
 <!-- Code to copy code -->
 
 {{- if and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (.Param "ShowCodeCopyButtons") }}
