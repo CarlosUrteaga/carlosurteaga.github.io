@@ -25,7 +25,7 @@ menu:
         #   weight: 5        
 
 params: # optional Windows tile color
-    description: "This website hosts Carlos Urteaga's research papers and professional carrer."
+    description: "This website hosts Carlos Urteaga's research papers and professional career."
     author: Carlos Urteaga
     googleAnalyticsID: "G-2Q2JH91MZC"
     images: ["cover.png"]
@@ -85,7 +85,7 @@ params: # optional Windows tile color
     assets:
         disableScrollBarStyle: true
         favicon16x16: "/favicon-16x16.png"
-        favicon32x32: "/favicon-16x16.png"
+        favicon32x32: "/favicon-32x32.png"
         apple_touch_icon: "/apple-touch-icon.png"
         theme_color: "#0c0f19"              # option
         favicon: "/favicon.ico?v=2"
