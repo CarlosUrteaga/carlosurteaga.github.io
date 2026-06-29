@@ -50,7 +50,7 @@ params: # optional Windows tile color
     profileMode:
           enabled: true
           title: Carlos Urteaga
-          subtitle: "Ph.D. student and Data Scientist at Globant focused on the operational maturity of AI Agents.\n\n\nHe designs production AI systems and researches practical standards for agent governance, evaluation, monitoring, and reliability.\n\n\nOpen to research collaborations and internships related to operational AI, agentic architectures, and AI governance."
+          subtitle: "Principal AI Engineer, AI Architect, and Ph.D. student focused on the operational maturity of LLM-powered AI agents.\n\n\nHe builds production-grade AI systems across RAG, AI agents, evaluation, observability, and cloud delivery, connecting research, engineering, and governance in real operational environments.\n\n\nOpen to research collaborations, applied AI projects, and advisory work in operational AI, agentic systems, and AI governance."
           imageUrl: "/picture.png"
           imageWidth: 180
           imageHeight: 240
