@@ -28,7 +28,7 @@
 
 {{- /* Build page description, allowing for term pages */ -}}
 {{- $default := site.Params.description -}}
-{{- $termText := printf "Research by Pascal Michaillat on: %s" .Title -}}
+{{- $termText := printf "Research by Carlos Urteaga on: %s" .Title -}}
 {{- $desc := cond (eq .Kind "term") $termText $default | default "" -}}
 {{- $desc = .Description | default .Summary | default $desc -}}
 <meta name="description" content="{{ $desc | plainify | htmlUnescape | chomp }}">

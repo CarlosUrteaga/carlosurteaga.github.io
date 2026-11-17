@@ -1,6 +1,7 @@
 <div class="profile">
     {{- with site.Params.profileMode }}
     <div class="profile_inner">
+      <div class="profile-heading">
         {{- if .imageUrl -}}
         {{- $img := "" }}
         {{- if not (urls.Parse .imageUrl).IsAbs }}
@@ -30,15 +31,31 @@
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
         {{- end }}
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }}</span>
-        {{- partial "social_icons.html" -}}
+        <div>
+          <h1>{{ .title | default site.Title | markdownify }}</h1>
+          <p class="profile-role">{{ .role }}</p>
+        </div>
+      </div>
+      <div class="profile-bio">
+        {{- range .paragraphs }}<p>{{ . }}</p>{{ end }}
+      </div>
+      <div class="profile-contact" aria-label="Contact and profiles">
+        {{- range slice "Email" "GitHub" "Google Scholar" "ORCID" "LinkedIn" "CV" }}
+        {{- range where site.Params.socialIcons "name" . }}
+        {{- if eq .name "Email" }}
+        <a class="contact-primary" href="{{ .url | safeURL }}">Contact me</a>
+        {{- else }}
+        <a href="{{ .url | safeURL }}">{{ if eq .name "Google Scholar" }}Scholar{{ else }}{{ .name }}{{ end }}</a>
+        {{- end }}
+        {{- end }}
+        {{- end }}
+      </div>
 
         {{- with .buttons }}
-        <div class="buttons">
+        <nav class="profile-navigation" aria-label="Main navigation">
             {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener">
-                <span class="button-inner">
+            <a href="{{ trim .url " " }}" rel="noopener">
+                <span>
                     {{ .name }}
                     {{- if (findRE "://" .url) }}&nbsp;
                     <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
@@ -51,8 +68,34 @@
                 </span>
             </a>
             {{- end }}
-        </div>
+        </nav>
         {{- end }}
     </div>
     {{- end}}
 </div>
+
+{{- range slice (dict "section" "papers" "title" "Selected Research" "id" "selected-research") (dict "section" "projects" "title" "Core Engineering Artifacts" "id" "core-engineering-artifacts") }}
+{{- $group := . }}
+{{- $pages := where site.RegularPages "Section" .section }}
+{{- $pages = where $pages "Params.homeorder" "gt" 0 }}
+{{- with $pages }}
+<section class="selected-work" id="{{ $group.id }}" aria-labelledby="{{ $group.id }}-heading">
+  <h2 id="{{ $group.id }}-heading">{{ $group.title }}</h2>
+  {{- range sort . "Params.homeorder" }}
+  <article class="selected-work-row">
+    <div class="work-meta">
+      <span>[{{ .Date.Format "2006" }}]</span>
+      {{- with .Params.venue }} <span>[{{ . }}]</span>{{ end }}
+      {{- if eq .Params.status "under_review" }} <span>[Manuscript · Under review]</span>{{ end }}
+      {{- if eq .Params.status "published" }} <span>[Published]</span>{{ end }}
+      {{- if eq .Section "projects" }} <span>[Python]</span>{{ end }}
+    </div>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p>{{ .Summary | plainify }}</p>
+    {{- partial "work_resources.html" . }}
+  </article>
+  {{- end }}
+  <a class="all-work" href="{{ printf "%s/" $group.section | relURL }}">{{ if eq $group.section "papers" }}All papers{{ else }}All projects{{ end }} →</a>
+</section>
+{{- end }}
+{{- end }}

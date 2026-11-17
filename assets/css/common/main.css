@@ -90,3 +90,67 @@ pre:hover         .copy-code {
   width: 1em;
   height: 1em;
 }
+/* Optional resources shared by research and engineering artifacts. */
+.work-resources {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 8px 14px;
+    margin-top: 12px;
+    font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+    font-size: 0.85rem;
+}
+
+.work-resources > a,
+.citation > summary {
+    color: var(--purple);
+    cursor: pointer;
+}
+
+.citation[open] {
+    flex-basis: 100%;
+    min-width: 0;
+}
+
+.citation-body {
+    margin-top: 12px;
+    font-size: 0.8rem;
+}
+
+.citation pre {
+    overflow-x: auto;
+    padding: 14px;
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--content);
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.citation-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.citation-copy {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--entry);
+    color: var(--primary);
+    padding: 6px 12px;
+    cursor: pointer;
+    font: inherit;
+}
+
+.citation-status { color: var(--secondary); }
+
+.work-resources a:focus-visible,
+.work-resources summary:focus-visible,
+.citation-copy:focus-visible {
+    outline: 2px solid var(--purple);
+    outline-offset: 3px;
+}

@@ -56,3 +56,8 @@
     display: flex;
     justify-content: space-between;
 }
+/* Keep resource controls above the full-card navigation link. */
+.post-entry > .work-resources {
+    position: relative;
+    z-index: 1;
+}

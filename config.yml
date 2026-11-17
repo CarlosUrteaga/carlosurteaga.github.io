@@ -25,7 +25,7 @@ menu:
           weight: 5
 
 params: # optional Windows tile color
-    description: "This website hosts Carlos Urteaga's research papers and professional career."
+    description: "Carlos Urteaga — AI Tech Lead, AI Architect, and Ph.D. student working on reliable AI systems, runtime governance, and operational maturity."
     author: Carlos Urteaga
     googleAnalyticsID: "G-2Q2JH91MZC"
     images: ["cover.png"]
@@ -50,10 +50,15 @@ params: # optional Windows tile color
     profileMode:
           enabled: true
           title: Carlos Urteaga
-          subtitle: "Principal AI Engineer, AI Architect, and Ph.D. student focused on the operational maturity of LLM-powered AI agents.\n \n  \nHe builds production-grade AI systems across RAG, AI agents, evaluation, observability, and cloud delivery, connecting research, engineering, and governance in real operational environments.\n \n \nOpen to research collaborations, applied AI projects, and advisory work in operational AI, agentic systems, and AI governance."
+          role: "AI Tech Lead · AI Architect · Ph.D. student"
+          paragraphs:
+            - "I’m an AI Tech Lead, AI Architect, and Ph.D. student working on the operational maturity of AI systems."
+            - "I build production AI systems across RAG, agents, evaluation, and observability. My research explores how explicit contracts, runtime controls, and operational evidence can make tool-using agents more reliable and auditable."
+            - "I’m open to research collaborations, applied AI projects, and technical advisory work."
+          imageTitle: "Carlos Urteaga"
           imageUrl: "/picture.png"
-          imageWidth: 180
-          imageHeight: 240
+          imageWidth: 88
+          imageHeight: 117
           buttons:
             - name: Papers
               url: papers/
@@ -75,6 +80,9 @@ params: # optional Windows tile color
           url: https://www.linkedin.com/in/carlos-urteaga/
         - name: GitHub
           url: https://github.com/CarlosUrteaga
+
+        - name: ORCID
+          url: https://orcid.org/0009-0007-2916-0170
 
     assets:
         disableScrollBarStyle: true

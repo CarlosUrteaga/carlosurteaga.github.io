@@ -1,14 +1,23 @@
 ---
-title: "Agent Contracts"
+title: "Agent Contracts Benchmark"
 date: 2026-06-20
 url: /projects/agent-contracts/
 tags: ["AgentOps", "AI Governance"]
 author: "Carlos Urteaga"
-description: "A governance artifact for specifying expected agent behavior and operational boundaries."
-summary: "A companion concept for defining responsibilities, allowed actions, escalation rules, and operational constraints for AI agents."
+description: "A reproducible research benchmark for evaluating contract enforcement, safe completion, and recovery in tool-using LLM agents."
+summary: "A reproducible research benchmark for evaluating contract enforcement, safe completion, and recovery in tool-using LLM agents."
 hideMeta: true
+homeOrder: 1
+repository: "https://github.com/CarlosUrteaga/agent-contracts-benchmark"
 ---
 
-Agent Contracts define the operational expectations around an AI agent: what it is responsible for, what it must not do, when it should escalate, and how it should be evaluated.
+Agent Contracts Benchmark evaluates Agent Contracts and an Agent Governor over a tool-using LLM agent. It compares no-contract, advisory, guarded, and strict enforcement in 21 nominal and adversarial scenarios.
 
-This project extends the Agent Cards direction toward enforceable operating agreements for agentic systems.
+The agent makes stochastic decisions while interacting with controlled local mock tools. The benchmark records execution evidence and evaluates unsafe side effects, safe completion, and recovery after blocked actions.
+
+This is a research benchmark and prototype, not a production deployment. Its controlled tool environment does not establish integration with external orchestration frameworks.
+
+## Related research
+
+- [Agent Contracts and Governors](/agent-contracts-and-governors/)
+- [Agent Cards](/agent-cards/)

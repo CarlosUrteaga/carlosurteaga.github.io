@@ -90,6 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
     </svg>`;
 
   document.querySelectorAll("pre > code").forEach((code) => {
+    if (code.closest(".citation")) return;
     const wrapper = code.closest(".highlight") || code.parentNode;
     wrapper.style.position = "relative";
 
@@ -117,3 +118,30 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 {{- end }}
+
+<!-- Citation controls also run on home and section pages. -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".citation").forEach((citation) => {
+    const code = citation.querySelector("pre > code");
+    const actions = citation.querySelector(".citation-actions");
+    const status = citation.querySelector(".citation-status");
+    if (!code || !actions || !status) return;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "citation-copy";
+    button.textContent = "Copy";
+    button.setAttribute("aria-label", "Copy BibTeX citation");
+    button.addEventListener("click", async () => {
+      try {
+        if (!navigator.clipboard || !navigator.clipboard.writeText) throw new Error("Clipboard unavailable");
+        await navigator.clipboard.writeText(code.textContent);
+        status.textContent = "Copied to clipboard.";
+      } catch {
+        status.textContent = "Copy unavailable. Select the citation above or download the .bib file.";
+      }
+    });
+    actions.insertBefore(button, actions.firstChild);
+  });
+});
+</script>

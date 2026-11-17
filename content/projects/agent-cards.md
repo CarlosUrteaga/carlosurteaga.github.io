@@ -1,18 +1,21 @@
 ---
-title: "Agent Cards"
+title: "agentcard"
 date: 2026-06-20
 url: /projects/agent-cards/
 tags: ["AgentOps", "Model Cards", "LLMOps Documentation Artifacts"]
 author: "Carlos Urteaga"
-description: "A documentation standard for operational AI agents."
-summary: "A lightweight artifact for documenting agent roles, tools, memory, communication, monitoring, governance, versioning, and evaluation."
+description: "A Python package and YAML template for documenting the operational characteristics of AI agents."
+summary: "A Python package and YAML template for documenting the operational characteristics of AI agents."
 hideMeta: true
+homeOrder: 2
+repository: "https://github.com/CarlosUrteaga/agentcard"
+packageURL: "https://pypi.org/project/agentcard/"
 ---
 
-Agent Cards are a proposed documentation standard for operational AI agents. The artifact captures the operational characteristics that model- and dataset-level documentation do not cover.
+`agentcard` is the Python package associated with Agent Cards. It includes a structured YAML template for describing agent roles, memory, tools, communication, monitoring, governance, versioning, limitations, and evaluation.
 
-The goal is to make agents easier to compare, reproduce, monitor, govern, and audit across deployments.
+The package and template support explicit operational documentation. They do not by themselves enforce behavioral contracts during agent execution.
 
-## Links
+## Related research
 
-- [Paper](/agent-cards/)
+- [Agent Cards: A Documentation Standard for Operational AI Agents](/agent-cards/)
