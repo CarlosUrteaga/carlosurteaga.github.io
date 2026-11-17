@@ -11,16 +11,16 @@ disableAnchoredHeadings: false
 
 ## Bio
 
-Carlos Urteaga is a Principal AI Engineer, AI Architect, and Ph.D. student focused on the operational maturity of LLM-powered AI agents.
+I am an AI Tech Lead, AI Architect, and Ph.D. student focused on the operational maturity of LLM-powered AI agents.
 
-He designs and delivers production-grade AI systems that connect research, engineering, and governance. With 10+ years of experience across financial services,education, retail, telecommunications, consulting, and enterprise technology, he has built scalable RAG systems, agentic workflows, document-intelligenceplatforms, and cloud-based AI services for real operational environments.
+I design and deliver production-grade AI systems that connect research, engineering, and governance. With 10+ years of experience across financial services, education, retail, telecommunications, consulting, and enterprise technology, I have built scalable RAG systems, agentic workflows, document-intelligence platforms, and cloud-based AI services for real operational environments.
 
-His work emphasizes the parts of enterprise AI that usually determine whether a system survives beyond a demo: architecture, evaluation, observability,reliability, production readiness, and responsible operational control. He works across the full lifecycle, from ambiguous requirements and technical design todeployment, validation, and cross-functional delivery.
+My work emphasizes the parts of enterprise AI that usually determine whether a system survives beyond a demo: architecture, evaluation, observability, reliability, production readiness, and responsible operational control. I work across the full lifecycle, from ambiguous requirements and technical design to deployment, validation, and cross-functional delivery.
 
-His research explores practical frameworks for governing and operating AI agents, including Agent Cards, Agent Contracts, Agent Types, and Agent Ledgers, withfocus on documentation, accountability, traceability, and measurable operational maturity.
+My research explores practical frameworks for governing and operating AI agents, including Agent Cards, Agent Contracts, Agent Types, and Agent Ledgers, with a focus on documentation, accountability, traceability, and measurable operational maturity.
 
 ## Interests
-- Principal-level AI engineering
+- Technical leadership in AI engineering
 - AgentOps and LLMOps
 - RAG evaluation and observability
 - Operational AI governance
@@ -28,4 +28,4 @@ His research explores practical frameworks for governing and operating AI agents
 - Responsible autonomy in multi-agent systems
 
 ## Collaboration
-He is open to research collaborations, applied AI projects, and technical advisory work related to production AI, agentic architectures, operational evaluation,and AI governance.
+I am open to research collaborations, applied AI projects, and technical advisory work related to production AI, agentic architectures, operational evaluation, and AI governance.

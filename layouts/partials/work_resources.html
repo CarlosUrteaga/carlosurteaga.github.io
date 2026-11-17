@@ -1,0 +1,22 @@
+{{- $page := . -}}
+{{- if or .Params.pdf .Params.doi .Params.repository .Params.packageURL .Params.bibtex }}
+<div class="work-resources" aria-label="Resources for {{ .Title }}">
+  {{- with .Params.pdf }}<a href="{{ . | relURL }}">[PDF]</a>{{ end }}
+  {{- with .Params.doi }}<a href="{{ . }}">[DOI]</a>{{ end }}
+  {{- with .Params.repository }}<a href="{{ . }}">[GitHub]</a>{{ end }}
+  {{- with .Params.packageURL }}<a href="{{ . }}">[PyPI]</a>{{ end }}
+  {{- with .Params.bibtex }}
+  {{- $citation := readFile (printf "static/%s" (strings.TrimPrefix "/" .)) }}
+  <details class="citation">
+    <summary aria-label="BibTeX for {{ $page.Title }}">[BibTeX]</summary>
+    <div class="citation-body">
+      <pre><code>{{ $citation }}</code></pre>
+      <div class="citation-actions">
+        <a href="{{ . | relURL }}" download>Download .bib</a>
+        <span class="citation-status" role="status" aria-live="polite"></span>
+      </div>
+    </div>
+  </details>
+  {{- end }}
+</div>
+{{- end }}

@@ -15,6 +15,17 @@
 {{- end }}
 {{- end }}
 
+{{- if eq .Section "papers" }}
+{{- with .Params.venue }}
+  {{- $scratch.Add "meta" (slice (. | htmlEscape)) }}
+{{- end }}
+{{- if eq .Params.status "under_review" }}
+  {{- $scratch.Add "meta" (slice "Manuscript · Under review") }}
+{{- else if eq .Params.status "published" }}
+  {{- $scratch.Add "meta" (slice "Published") }}
+{{- end }}
+{{- end }}
+
 {{- with ($scratch.Get "meta") }}
 {{- delimit . "&nbsp;&middot;&nbsp;" | safeHTML -}}
 {{- end -}}

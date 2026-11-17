@@ -74,6 +74,9 @@
     {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}
+  {{- if in (slice "papers" "projects") $.Section }}
+  {{- partial "work_resources.html" . }}
+  {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
 {{- end }}
