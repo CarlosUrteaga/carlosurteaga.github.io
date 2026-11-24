@@ -25,7 +25,7 @@ menu:
           weight: 5
 
 params: # optional Windows tile color
-    description: "Carlos Urteaga — AI Tech Lead, AI Architect, and Ph.D. student working on reliable AI systems, runtime governance, and operational maturity."
+    description: "Carlos Urteaga — Making AI Agents Governable. Building the governance stack for AI agents: documentation, runtime control, evaluation, and operational evidence."
     author: Carlos Urteaga
     googleAnalyticsID: "G-2Q2JH91MZC"
     images: ["cover.png"]
@@ -50,10 +50,11 @@ params: # optional Windows tile color
     profileMode:
           enabled: true
           title: Carlos Urteaga
-          role: "AI Tech Lead · AI Architect · Ph.D. student"
+          role: "Making AI Agents Governable"
+          subrole: "AI Engineer, Researcher | Agent Cards & Contracts | Operational AI | AI Governance Framework"
           paragraphs:
-            - "I’m an AI Tech Lead, AI Architect, and Ph.D. student working on the operational maturity of AI systems."
-            - "I build production AI systems across RAG, agents, evaluation, and observability. My research explores how explicit contracts, runtime controls, and operational evidence can make tool-using agents more reliable and auditable."
+            - "AI agents are becoming increasingly capable. The next challenge is not intelligence — it is governance."
+            - "My work explores how organizations can build governable AI agents through documentation standards, evaluation frameworks, runtime controls, and operational evidence."
             - "I’m open to research collaborations, applied AI projects, and technical advisory work."
           imageTitle: "Carlos Urteaga"
           imageUrl: "/picture.png"
@@ -73,11 +74,11 @@ params: # optional Windows tile color
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:carlos.urteaga@outlook.com
+          url: mailto:carlos@urteaga.tech
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=qlL6Ef8AAAAJ&hl=es
         - name: LinkedIn
-          url: https://www.linkedin.com/in/carlos-urteaga/
+          url: https://www.linkedin.com/in/carlosurteaga/
         - name: GitHub
           url: https://github.com/CarlosUrteaga
 

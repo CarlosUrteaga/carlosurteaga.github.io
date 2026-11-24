@@ -8,7 +8,8 @@ summary: "Executable contracts and a runtime governor for controlling tool use, 
 status: under_review
 homeOrder: 1
 bibtex: "/citations/agent-contracts-and-governors.bib"
-repository: "https://github.com/CarlosUrteaga/agent-contracts-benchmark"
+repository: "https://github.com/CarlosUrteaga/vogtcon"
+benchmark: "https://github.com/CarlosUrteaga/agent-contracts-benchmark"
 ---
 
 This research manuscript is currently under review.
@@ -19,7 +20,8 @@ Agent Contracts define executable obligations over tool use, memory operations, 
 
 The research examines how these modes balance prevention, recovery, and useful task completion. Evaluation uses a frozen benchmark with 21 scenarios, controlled local tools, repeated campaigns, and multiple LLM execution conditions. These experiments study runtime governance in a controlled research setting; they do not establish guarantees for arbitrary production environments.
 
-## Related material
+## Implementation & Related Material
 
-- [Agent Contracts Benchmark](/projects/agent-contracts/)
-- [Agent Cards](/agent-cards/)
+- **[vogtcon (GitHub)](https://github.com/CarlosUrteaga/vogtcon)**: The Python library implementing Agent Contracts, the Agent Governor, and runtime intervention policies.
+- **[Agent Contracts Benchmark](/projects/agent-contracts/)** ([GitHub](https://github.com/CarlosUrteaga/agent-contracts-benchmark)): The reproducible evaluation harness testing contract enforcement across 21 nominal and adversarial scenarios.
+- **[Agent Cards](/agent-cards/)**: Documentation standard for operational AI agents.

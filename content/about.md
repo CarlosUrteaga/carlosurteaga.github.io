@@ -3,29 +3,52 @@ title: "About"
 date: 2026-06-20
 url: /about/
 author: "Carlos Urteaga"
-description: "Biography and research interests for Carlos Urteaga."
+description: "Carlos Urteaga — AI engineering, architecture, and governance. Helping organizations make AI agents reliable, auditable, and production-ready."
 hideMeta: true
 showToc: true
 disableAnchoredHeadings: false
 ---
 
-## Bio
+AI agents are quickly becoming part of how organizations work, make decisions, and interact with customers.
 
-I am an AI Tech Lead, AI Architect, and Ph.D. student focused on the operational maturity of LLM-powered AI agents.
+The next challenge is no longer building more powerful agents.
 
-I design and deliver production-grade AI systems that connect research, engineering, and governance. With 10+ years of experience across financial services, education, retail, telecommunications, consulting, and enterprise technology, I have built scalable RAG systems, agentic workflows, document-intelligence platforms, and cloud-based AI services for real operational environments.
+**The challenge is making them governable.**
 
-My work emphasizes the parts of enterprise AI that usually determine whether a system survives beyond a demo: architecture, evaluation, observability, reliability, production readiness, and responsible operational control. I work across the full lifecycle, from ambiguous requirements and technical design to deployment, validation, and cross-functional delivery.
+I work at the intersection of AI engineering, AI architecture, and AI governance, helping organizations design AI systems that are reliable, auditable, observable, and ready for real-world deployment.
 
-My research explores practical frameworks for governing and operating AI agents, including Agent Cards, Agent Contracts, Agent Types, and Agent Ledgers, with a focus on documentation, accountability, traceability, and measurable operational maturity.
+Over the last decade, I have built and led production AI initiatives across financial services, telecommunications, retail, education, consulting, and enterprise technology. My work spans Generative AI, RAG, agentic systems, LLMOps, MLOps, observability, evaluation, and cloud-native AI platforms on Azure and AWS.
 
-## Interests
-- Technical leadership in AI engineering
-- AgentOps and LLMOps
-- RAG evaluation and observability
-- Operational AI governance
-- Reliable and auditable AI agents
-- Responsible autonomy in multi-agent systems
+---
+
+## Core Focus
+
+Today, my primary focus is a question that I believe will define the next generation of AI:
+
+> **How do we make AI agents governable?**
+
+My work explores the frameworks, controls, documentation standards, evaluation methods, and operational practices needed to transform AI agents from experimental prototypes into trustworthy organizational systems.
+
+As part of that effort, I introduced [Agent Cards](/agent-cards/), a documentation framework designed to improve transparency, auditability, and operational understanding of AI agents, along with the runtime governance library [`vogtcon`](https://github.com/CarlosUrteaga/vogtcon) and the [Agent Contracts Benchmark](/projects/agent-contracts/).
+
+---
+
+## Selected Impact
+
+- **Improved enterprise chatbot quality from 50% to 90%** through RAG redesign and Retrieval-Augmented Reasoning (RARE).
+- **Reduced a document review workflow from more than 500 hours to approximately 30 minutes** through AI-assisted document intelligence and validation pipelines.
+- **Built and deployed production RAG and AI agent systems** across Azure and AWS.
+- **Established agent-assisted engineering workflows** that significantly accelerated software delivery while reducing rework and technical debt.
+- **Designed operational controls, monitoring layers, evaluation pipelines, and deployment architectures** for enterprise-scale AI systems.
+
+---
+
+## Current Interests
+
+AI Agent Governance • Agent Cards • Operational AI • AI Evaluation • LLMOps • MLOps • RAG • AI Architecture • Trustworthy AI • Observability
+
+---
 
 ## Collaboration
-I am open to research collaborations, applied AI projects, and technical advisory work related to production AI, agentic architectures, operational evaluation, and AI governance.
+
+I regularly collaborate with researchers, universities, technology leaders, and organizations interested in operationalizing AI responsibly and effectively.
