@@ -34,6 +34,9 @@
         <div>
           <h1>{{ .title | default site.Title | markdownify }}</h1>
           <p class="profile-role">{{ .role }}</p>
+          {{- with .subrole }}
+          <p class="profile-subrole">{{ . }}</p>
+          {{- end }}
         </div>
       </div>
       <div class="profile-bio">
@@ -73,6 +76,45 @@
     </div>
     {{- end}}
 </div>
+
+<section class="research-mission" aria-labelledby="research-mission-heading">
+  <div class="mission-badge">The Governance Stack</div>
+  <h2 id="research-mission-heading">Making AI Agents Governable</h2>
+  <p class="mission-text">I study how AI agents can become observable, auditable, controllable, and trustworthy in real organizational environments.</p>
+  <div class="mission-lifecycle">
+    <p class="lifecycle-lead">Building the governance stack for AI agents:</p>
+    <div class="stack-grid">
+      <a class="stack-item" href="{{ "/agent-cards/" | relURL }}">
+        <div class="stack-header">
+          <span class="stack-title">Agent Cards</span>
+          <span class="stack-arrow">→</span>
+        </div>
+        <div class="stack-layer">The documentation layer.</div>
+      </a>
+      <a class="stack-item" href="{{ "/agent-contracts-and-governors/" | relURL }}">
+        <div class="stack-header">
+          <span class="stack-title">Agent Contracts &amp; Governors</span>
+          <span class="stack-arrow">→</span>
+        </div>
+        <div class="stack-layer">The control layer.</div>
+      </a>
+      <a class="stack-item" href="{{ "/projects/agent-contracts/" | relURL }}">
+        <div class="stack-header">
+          <span class="stack-title">Agent Contracts Benchmark</span>
+          <span class="stack-arrow">→</span>
+        </div>
+        <div class="stack-layer">The evaluation layer.</div>
+      </a>
+      <a class="stack-item" href="{{ "/projects/agent-ledgers/" | relURL }}">
+        <div class="stack-header">
+          <span class="stack-title">Agent Ledgers</span>
+          <span class="stack-arrow">→</span>
+        </div>
+        <div class="stack-layer">The evidence layer.</div>
+      </a>
+    </div>
+  </div>
+</section>
 
 {{- range slice (dict "section" "papers" "title" "Selected Research" "id" "selected-research") (dict "section" "projects" "title" "Core Engineering Artifacts" "id" "core-engineering-artifacts") }}
 {{- $group := . }}

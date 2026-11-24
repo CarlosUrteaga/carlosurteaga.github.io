@@ -7,7 +7,7 @@ author: "Carlos Urteaga"
 description: "A Python package and YAML template for documenting the operational characteristics of AI agents."
 summary: "A Python package and YAML template for documenting the operational characteristics of AI agents."
 hideMeta: true
-homeOrder: 2
+homeOrder: 3
 repository: "https://github.com/CarlosUrteaga/agentcard"
 packageURL: "https://pypi.org/project/agentcard/"
 ---
